@@ -19,7 +19,6 @@ client.on('message', message => {
        message.reply('pong');
 
        }
-    message.reply('Salut, je suis un bot inutile qui repond a tous les messages de tout le monde, tuez moi')
 });
 
  
