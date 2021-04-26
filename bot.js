@@ -21,7 +21,7 @@ client.on('message', message => {
    }
 
    if (message.content === 'bite') {
-		message.deleted = true;
+		message.delete()			;
    }
 
 
