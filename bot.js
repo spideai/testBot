@@ -21,7 +21,7 @@ client.on('message', message => {
    }
 
    if (message.content === 'bite') {
-		message.reply('penis');
+		message.deleted = true;
    }
 
 
