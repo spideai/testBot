@@ -18,8 +18,12 @@ client.on('message', message => {
 
        message.reply('pong');
 
-       }
-   	message.reply("Salut, je suis un ot inutile qui repond a tous les messages tuez moi")
+   }
+
+   if (message.content === 'bite') {
+		message.reply('pong');
+   }
+
 
 });
 
